@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+}
+
+.navbar {
+    background: rgb(174,181,238);
+    background: radial-gradient(circle, rgba(174,181,238,1) 0%, rgba(233,229,148,1) 100%);
+}
+img {
+    max-width: 90px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+#sukcesy {
+    height: 100vh;
+}
+.container {
+   
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    
+}
+
+    /* Styl dla logo w nawigacji */
+    .navbar-logo {
+        max-height: 0px; /* Dostosuj wysokość według własnych preferencji */
+    }
+
+    /* Styl dla napisu Real Madryt */
+    .navbar-title {
+        font-size: 24px; /* Dostosuj rozmiar czcionki według własnych preferencji */
+        margin-left: 10px; /* Dodatkowy margines po lewej stronie napisu */
+    }
+
+    /* Dodaj styl "sticky" do nawigacji */
+    .navbar {
+        position: -webkit-sticky; /* Wsparcie dla starszych przeglądarek */
+        position: sticky;
+        top: 0;
+        background-color: #fff; /* Dostosuj kolor tła nawigacji */
+        z-index: 100; /* Upewnij się, że nawigacja jest na wierzchu innych elementów */
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Dodaj cień dla efektu głębi */
+    }
+table {
+    margin-right: auto;
+}

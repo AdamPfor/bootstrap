@@ -1,0 +1,212 @@
+.coaching-staff {
+    background: #747474;
+    color: #fff;
+    overflow: hidden
+}
+
+@media(min-width: 600px) {
+    .coaching-staff {
+        display:flex
+    }
+}
+
+.coaching-staff h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 0 0 12px
+}
+
+@media(min-width: 600px) {
+    .coaching-staff h3 {
+        border-bottom:1px solid #828282;
+        display: block
+    }
+}
+
+.coaching-staff h3 span {
+    color: #c3c3c3;
+    display: block;
+    font-weight: 400
+}
+
+@media(min-width: 600px) {
+    .coaching-staff h3 span {
+        display:inline
+    }
+}
+
+.coaching-staff img {
+    float: left;
+    margin-right: 25px;
+    color: #c3c3c3;
+    font-weight: 400;
+    margin-bottom: 25px;
+    width: 50%
+}
+
+@media(min-width: 480px) {
+    .coaching-staff img {
+        width:33%
+    }
+}
+
+@media(min-width: 985px) {
+    .coaching-staff img {
+        width:25%
+    }
+}
+
+@media(min-width: 600px) {
+    .coaching-staff img {
+        margin-bottom:0
+    }
+}
+
+.coaching-staff p {
+    clear: both;
+    margin: 10px 0 10px 15px
+}
+
+@media(min-width: 600px) {
+    .coaching-staff p {
+        margin:10px 0
+    }
+}
+
+.coaching-staff__members p strong,.coaching-staff__roles {
+    color: #c3c3c3;
+    font-weight: 400
+}
+
+.coaching-staff__members {
+    padding: 20px 20px 15px 0
+}
+
+.players-list ul {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.players-list li {
+    background: #f6f6f6;
+    border-left: 1px solid #fff;
+    flex: 0 0 50%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    position: relative
+}
+
+@media(min-width: 480px) {
+    .players-list li {
+        flex:0 0 33%
+    }
+}
+
+@media(min-width: 985px) {
+    .players-list li {
+        flex:0 0 25%
+    }
+}
+
+.players-list img {
+    height: auto;
+    margin-bottom: 15px;
+    width: 100%
+}
+
+.players-list a {
+    display: block;
+    padding-bottom: 20px
+}
+
+.players-list a:hover .team-captain-badge {
+    color: #fff
+}
+
+.has-injury .players-list__player-name {
+    position: relative
+}
+
+.has-injury .players-list__player-name:after,.has-injury .players-list__player-name:before {
+    background: red;
+    content: "";
+    height: 9px;
+    right: 10px;
+    margin-top: -4px;
+    position: absolute;
+    top: 50%;
+    width: 3px
+}
+
+.has-injury .players-list__player-name:after {
+    transform: rotate(90deg)
+}
+
+.team-captain-badge {
+    background: #ea7942;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 1.6rem;
+    height: 18px;
+    line-height: 18px;
+    left: 6px;
+    position: absolute;
+    width: 18px;
+    text-align: center;
+    top: 6px;
+    z-index: 1
+}
+
+.players-list__player-name {
+    align-items: center;
+    display: flex;
+    padding: 0 15px
+}
+
+.players-list__player-number {
+    flex: 0 0 35px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-right: 15px;
+    text-align: center
+}
+
+.other-players-list {
+    border-top: 1px solid #f6f6f6;
+    margin-top: 30px
+}
+
+.other-players-list li {
+    background: #f6f6f6;
+    color: #606060;
+    display: flex;
+    margin-bottom: 1px;
+    padding-right: 15px
+}
+
+.other-players-list img {
+    align-self: flex-start;
+    margin-right: 15px
+}
+
+.other-players-list h3 {
+    color: #1c1c4c;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 12px 0 3px
+}
+
+.other-players-list p {
+    margin: 0
+}
+
+.team-page {
+    padding-bottom: 40px
+}
+
+.team-page h2 {
+    margin: 15px
+}
